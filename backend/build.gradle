@@ -17,7 +17,8 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation group: 'org.openpnp', name: 'opencv', version: '4.5.3-1'
+	// implementation group: 'org.openpnp', name: 'opencv', version: '4.5.3-1'
+	implementation 'org.openpnp:opencv:4.7.0-0'
 	testImplementation 'org.apache.httpcomponents:httpclient'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
